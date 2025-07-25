@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #344E41;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.logo {
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    margin: 48px 20px;
+    padding: 18px;
+}
+
+.textheader {
+    font-size: 48px;
+}
+.textheader > p {
+    font-size: 10px;
+}
+
+.imgmeme {
+    width: 450px;
+    height: 150px;
+}
+.links, a {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    color: #fff;
+    text-decoration: none;
+}
